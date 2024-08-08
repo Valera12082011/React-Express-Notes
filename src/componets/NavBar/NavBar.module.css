@@ -1,0 +1,34 @@
+.NavBar {
+    background-color: gray;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    padding: 10px; /* Добавление отступов, если нужно */
+}
+
+.RoutersItems {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.RoutersItems li {
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    color: white;
+    display: flex; /* Используем flex для выравнивания содержимого */
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+}
+
+.RoutersItems li a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: #fffeec;
+    display: flex; /* Используем flex для выравнивания текста с иконкой */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.RoutersItems li svg {
+    margin-right: 5px; /* Добавить отступ между иконкой и текстом */
+}
